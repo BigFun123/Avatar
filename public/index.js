@@ -4,17 +4,29 @@ let voices = [];
 let voice = null;
 let text = "";
 
-const avatar = new Avatar("bob");
+inputbox = document.getElementById("input-box");
+
+//const avatar = new Avatar("bob");
+const scene = new Scene();
+var avatar = null;
+scene.createAvatar().then((navatar) => {
+    console.log("Avatar created");
+    avatar = navatar;
+});
 
 function populateVoiceList() {
   voices = synth.getVoices();
+  if (!voices) return;
   const voicenames = voices.map(voice => voice.name);
-  voicenames.forEach(v => console.log(v));
+  //voicenames.forEach(v => console.log(v));
   //Yan
   voice = voices.find(v => v.name.indexOf("Ryan") > -1);
   if (voice == null) {
   voice = voices.find(v => v.name.indexOf("Guy") > -1);
   }    
+  if (voice == null) {
+    voice = voices.find(v => v.name.indexOf("English") > -1);
+    }    
 }
 
 //populateVoiceList();
@@ -31,7 +43,7 @@ function speak(ntext) {
     utterance.addEventListener("start", log);
     utterance.addEventListener("end", log);
 
-    utterance.addEventListener("boundary", animate);
+    utterance.addEventListener("boundary", (e)=>animate(e));
     voice && (utterance.voice = voice);
     synth.speak(utterance);
   }, 1000);
@@ -48,11 +60,12 @@ function animate(e) {
   console.log(word);
 }
 
-speak("morning");
+//speak("morning");
 
 var button = document.getElementById("speak-button");
 button.addEventListener("click", () => {
-  speak("I'm a world famous avatar named guy");
+  
+  speak(inputbox.value);
 });
 
 
