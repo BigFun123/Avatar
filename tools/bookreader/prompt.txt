@@ -1,0 +1,5 @@
+Separate the following text into titles, character speech, and narrator, for a TTS service. Summarize the mood of the paragraph in the "mood" tag.
+Provide the output in json format using this schema:  [{"speaker": "narrator", "text":"hello", "mood": "happy"}, {"speaker":"harry", "text": "Who are you?", "mood":"serious"}]. 
+
+
+

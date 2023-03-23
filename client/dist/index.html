@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
     <link rel="stylesheet" href="./css/style.css?g=2" type="text/css">
-    <link rel="stylesheet" href="./css/scene.css?g=2" type="text/css">
+    <link rel="stylesheet" href="./css/converse.css?g=2" type="text/css">
+    <link rel="stylesheet" href="./css/avatar.css" type="text/css">
     <title>AVATAR</title>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>-->
     <!--<script src="./lib/Assets.js"></script>
@@ -27,24 +33,22 @@
 </head>
 
 <body>
-    <div id="container">        
-       <!-- <div id="avatar">
-            <canvas id="canvas" width="512" height="512"></canvas>
-        </div>-->
-        <div id="scene">
-            <canvas id="canvas3d" width="256" height="512"></canvas>
-        </div>
-        <div id="output-section"></div>
-        <div id="input-section">
-            <textarea title="input" id="input-box">Hello! What's your name? My name's Peter.</textarea>
-            <div id="ask-button">Ask</div>
-            <div id="speak-button">SPEAK</div>
-        </div>
-        
-        
+    <div id="bg"></div>
+    <div id="install">
+        <p>How to install extra TTS voices</p>
+        <h3><a
+                href="https://www.thewindowsclub.com/unlock-extra-text-to-speech-voices-in-windows">TheWindowsClub/unlockTTS</a>
+        </h3>
     </div>
-    <script src="./dist/index.js" type="module"></script>
-
-<script defer src="index.js?0c3e72dbb362b34867a1"></script></body>
+    <div id="scene">
+        <div id="spinner"></div>
+        <div id="speech-bubble">
+            <textarea id="speech-bubble-output">reponse</textarea>
+            <div id="speech-bubble-stem"></div>
+        </div>
+        <canvas id="canvas3d" width="512" height="512"></canvas>
+        <textarea id="speech-bubble-input"></textarea>
+    </div>
+<script defer src="havatar.js?9d156560ac4d72d4f63d"></script></body>
 
 </html>

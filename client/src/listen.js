@@ -9,8 +9,14 @@ export class Listen {
             console.log("We are listening. Try speaking into the microphone.");
         };
 
+        recognition.onspeechend = function() {
+            // when user is done speaking
+            recognition.stop();
+        }
+
         recognition.onresult = event => {
             const transcript = event.results[event.results.length - 1][0].transcript;
+            var confidence = event.results[0][0].confidence;
             console.log(`You said: ${transcript}`);
         };
 

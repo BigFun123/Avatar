@@ -1,0 +1,251 @@
+{"date":"2023/21/18 17:27:29","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:27:29","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:27:29","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:27:31","context":"setconfig","key":"voice","value":"male"}
+{"date":"2023/21/18 17:27:31","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:28:6","context":"getconfig"}
+{"date":"2023/21/18 17:28:25","context":"getconfig"}
+{"date":"2023/21/18 17:28:25","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:29:45","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:29:45","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:29:45","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:29:48","context":"getconfig"}
+{"date":"2023/21/18 17:30:1","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:31:3","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:31:3","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:31:3","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:31:13","context":"getconfig"}
+{"date":"2023/21/18 17:31:51","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:31:51","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:31:51","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:31:56","context":"getconfig"}
+{"date":"2023/21/18 17:31:56","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:32:22","context":"::1,test\n"}
+{"date":"2023/21/18 17:32:25","context":"Hi! I'm Louise. I live in Cape Town, South Africa, and I love running and writing. Running helps me stay fit and active, and writing is a great way for me to express my thoughts and feelings. I also love exploring my city and discovering new places and cultures. Being outdoors is one of my favorite activities, and I'm always up for a good adventure!"}
+{"date":"2023/21/18 17:32:33","context":"setconfig","key":"voice","value":"female"}
+{"date":"2023/21/18 17:32:33","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:32:38","context":"getconfig"}
+{"date":"2023/21/18 17:32:38","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:32:52","context":"::1,test\n"}
+{"date":"2023/21/18 17:32:56","context":"Hi there! I'm Louise and I'm from Cape Town, South Africa. I'm a big fan of running and writing - they're my two favorite hobbies! I like to use running as a way to relieve stress and clear my head, and writing to express myself and document my life. I'm always up for a chat, so feel free to reach out if you ever need someone to talk to!"}
+{"date":"2023/21/18 17:40:36","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:40:36","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:40:36","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:40:58","context":"getconfig"}
+{"date":"2023/21/18 17:41:5","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/18 17:41:14","context":"message"}
+{"date":"2023/21/18 17:41:18","context":"completion","ip":"::1","message":"Hi there! I'm Louise. I'm from Cape Town, South Africa. I'm an outgoing person who loves to stay active. My favorite hobbies are running and writing. I love exploring new places and meeting new people. I'm always up for trying something new and having a good time. I'm also a big fan of music and books. It's a great way to relax and explore new ideas. So come along and join me on my adventures!"}
+{"date":"2023/21/18 17:42:10","context":"Chatbot backend starting..."}
+{"date":"2023/21/18 17:42:10","context":"promptPrefix: Act as a friendly Friend named Louise. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/18 17:42:10","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/18 17:42:50","context":"getconfig"}
+{"date":"2023/21/18 17:42:50","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:44:47","context":"getconfig"}
+{"date":"2023/21/18 17:44:47","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/18 17:45:35","context":"getconfig"}
+{"date":"2023/21/18 17:45:35","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"l","7":"l","8":" ","9":"m","10":"e","11":" ","12":"a","13":" ","14":"j","15":"o","16":"k","17":"e","18":"\n","date":"2023/21/18 17:45:54","context":"message"}
+{"date":"2023/21/18 17:45:56","context":"completion","ip":"::1","message":"Q: Why don't scientists trust atoms?\nA: Because they make up everything!"}
+{"0":":","1":":","2":"1","3":",","4":"h","5":"e","6":"l","7":"l","8":"o","9":",","10":" ","11":"h","12":"o","13":"w","14":" ","15":"a","16":"r","17":"e","18":" ","19":"y","20":"o","21":"u","22":"?","23":"\n","date":"2023/21/18 17:54:53","context":"message"}
+{"date":"2023/21/18 17:54:56","context":"completion","ip":"::1","message":"Hey there! I'm doing great, how about you? I'm Louise, a friendly friend from Cape Town, South Africa. I love running and writing in my free time. What about you? What do you like to do for fun?"}
+{"date":"2023/21/18 17:55:11","context":"setconfig","key":"name","value":"Peter"}
+{"date":"2023/21/18 17:55:11","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/18 17:55:15","context":"message"}
+{"date":"2023/21/18 17:55:19","context":"completion","ip":"::1","message":"Hi there! I'm Peter, and I'm from Cape Town, South Africa. I'm really into running and writing - in fact, they're my two favorite hobbies. I always like to take a nice jog around the city, and I also love to sit down and write stories and poetry. I'm always looking for new things to explore in Cape Town, so if you ever have any ideas, let me know!"}
+{"date":"2023/21/22 19:58:16","context":"Chatbot backend starting..."}
+{"date":"2023/21/22 19:58:16","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/22 19:58:16","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/22 19:58:30","context":"getconfig"}
+{"date":"2023/21/22 19:58:31","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"l","7":"l","8":" ","9":"m","10":"e","11":" ","12":"a","13":"b","14":"o","15":"u","16":"t","17":" ","18":"s","19":"p","20":"e","21":"c","22":"t","23":"a","24":"c","25":"l","26":"e","27":"s","28":"\n","date":"2023/21/22 19:58:39","context":"message"}
+{"date":"2023/21/22 19:58:44","context":"completion","ip":"::1","message":"Spectacles are a great way to protect your eyes from the sun and make a fashion statement at the same time. I love to wear mine while running in the beautiful Cape Town sunshine. I also like to have them on when I'm writing, so I can focus better on my work. They really help to block out distractions and make me more productive."}
+{"date":"2023/21/23 19:20:5","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:20:5","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:20:5","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:21:18","context":"getconfig"}
+{"date":"2023/21/23 19:21:18","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:21:44","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:21:44","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:21:44","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:21:56","context":"getconfig"}
+{"date":"2023/21/23 19:21:56","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:22:16","context":"getconfig"}
+{"date":"2023/21/23 19:22:16","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:23:26","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:23:26","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:23:26","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:23:33","context":"getconfig"}
+{"date":"2023/21/23 19:23:33","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:24:48","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:24:48","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:24:48","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:24:54","context":"getconfig"}
+{"date":"2023/21/23 19:24:54","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/23 19:24:57","context":"message"}
+{"date":"2023/21/23 19:25:14","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:25:14","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:25:14","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:25:20","context":"getconfig"}
+{"date":"2023/21/23 19:25:20","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/23 19:25:55","context":"message"}
+{"date":"2023/21/23 19:26:34","context":"error"}
+{"date":"2023/21/23 19:26:44","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:26:44","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:26:44","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:26:54","context":"getconfig"}
+{"date":"2023/21/23 19:26:55","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/23 19:26:56","context":"message"}
+{"date":"2023/21/23 19:28:45","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:28:45","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:28:45","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:29:3","context":"getconfig"}
+{"date":"2023/21/23 19:29:3","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:34:7","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:34:7","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:34:7","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:34:21","context":"getconfig"}
+{"date":"2023/21/23 19:34:21","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:35:28","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:35:28","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:35:28","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:35:35","context":"getconfig"}
+{"date":"2023/21/23 19:35:35","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:35:50","context":"getconfig"}
+{"date":"2023/21/23 19:35:50","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/23 19:36:1","context":"message"}
+{"date":"2023/21/23 19:37:33","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:37:33","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:37:33","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:37:42","context":"getconfig"}
+{"date":"2023/21/23 19:37:42","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","8":"\n","date":"2023/21/23 19:37:44","context":"message"}
+{"config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":44},"method":"post","data":"{\"model\":\"text-davinci-003\",\"prompt\":\"test\"}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:38:59","context":"getconfig"}
+{"date":"2023/21/23 19:38:59","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:39:26","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:39:26","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:39:26","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:39:31","context":"getconfig"}
+{"date":"2023/21/23 19:39:31","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:39:35","context":"getconfig"}
+{"date":"2023/21/23 19:39:35","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:39:40","context":"getconfig"}
+{"date":"2023/21/23 19:39:40","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:39:49","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:39:49","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:39:49","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:40:29","context":"getconfig"}
+{"date":"2023/21/23 19:40:40","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"h","5":"e","6":"l","7":"l","8":"o","date":"2023/21/23 19:41:38","context":"message"}
+{"date":"2023/21/23 19:41:46","context":"error","message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\adapters\\http.js:322:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":45},"method":"post","data":"{\"model\":\"text-davinci-003\",\"prompt\":\"hello\"}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:42:28","context":"getconfig"}
+{"date":"2023/21/23 19:42:34","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","date":"2023/21/23 19:42:41","context":"message"}
+{"date":"2023/21/23 19:42:42","context":"error","message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\adapters\\http.js:322:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":44},"method":"post","data":"{\"model\":\"text-davinci-003\",\"prompt\":\"test\"}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:43:1","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:43:1","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:43:1","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:43:8","context":"getconfig"}
+{"date":"2023/21/23 19:43:8","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"0":":","1":":","2":"1","3":",","4":"t","5":"e","6":"s","7":"t","date":"2023/21/23 19:43:15","context":"message"}
+{"date":"2023/21/23 19:43:37","context":"error","message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\adapters\\http.js:322:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":44},"method":"post","data":"{\"model\":\"text-davinci-003\",\"prompt\":\"test\"}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:44:36","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:44:36","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:44:36","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:44:42","context":"getconfig"}
+{"date":"2023/21/23 19:44:42","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:45:46","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:45:46","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:45:46","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:45:50","context":"getconfig"}
+{"date":"2023/21/23 19:45:50","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:45:54","context":"getconfig"}
+{"date":"2023/21/23 19:45:54","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:45:59","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:45:59","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:45:59","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:46:2","context":"getconfig"}
+{"date":"2023/21/23 19:46:2","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:47:1","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:47:1","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:47:1","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:47:26","context":"getconfig"}
+{"date":"2023/21/23 19:47:26","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:47:34","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:47:34","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:47:34","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:47:37","context":"getconfig"}
+{"date":"2023/21/23 19:47:37","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:47:39","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:47:40","context":"error","message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\adapters\\http.js:322:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":44},"method":"post","data":"{\"model\":\"text-davinci-003\",\"prompt\":\"test\"}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:49:21","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:49:21","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:49:21","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:49:49","context":"getconfig"}
+{"date":"2023/21/23 19:49:50","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:50:15","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:50:15","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:50:15","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:50:41","context":"getconfig"}
+{"date":"2023/21/23 19:50:41","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:50:43","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:50:44","context":"error","message":"Request failed with status code 404","name":"Error","stack":"Error: Request failed with status code 404\n    at createError (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\core\\settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (D:\\dev\\ai\\Avatar\\server\\node_modules\\axios\\lib\\adapters\\http.js:322:11)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","config":{"transitional":{"silentJSONParsing":true,"forcedJSONParsing":true,"clarifyTimeoutError":false},"transformRequest":[null],"transformResponse":[null],"timeout":0,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json","User-Agent":"OpenAI/NodeJS/3.2.1","Authorization":"Bearer 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","Content-Length":181},"method":"post","data":"{\"model\":\"text-davinci-003\",\"messages\":[{\"role\":\"system\",\"content\":\"Act as a friend. Express opinions, answer questions, and also ask questions.\"},{\"role\":\"user\",\"content\":\"test\"}]}","url":"https://api.openai.com/v1/chat/completions"},"status":404}
+{"date":"2023/21/23 19:52:59","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:52:59","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:52:59","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:54:4","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:54:4","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:54:4","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:54:36","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:54:36","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:54:36","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:54:42","context":"getconfig"}
+{"date":"2023/21/23 19:54:42","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:54:44","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:55:47","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:55:47","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:55:47","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:55:51","context":"getconfig"}
+{"date":"2023/21/23 19:55:51","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:55:54","context":"getconfig"}
+{"date":"2023/21/23 19:55:54","context":"login,","user":"user","password":"password","userid":"123","ip":"::ffff:127.0.0.1"}
+{"date":"2023/21/23 19:55:59","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:55:59","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:55:59","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:56:3","context":"getconfig"}
+{"date":"2023/21/23 19:56:3","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:56:6","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:56:54","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:56:54","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:56:54","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:56:58","context":"getconfig"}
+{"date":"2023/21/23 19:56:58","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:57:1","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:58:45","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 19:58:46","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 19:58:46","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 19:58:56","context":"getconfig"}
+{"date":"2023/21/23 19:58:56","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 19:58:58","context":"message","ip":"::1","data":"test"}
+{"date":"2023/21/23 19:59:17","context":"completion","ip":"::1","role":"assistant","message":"Is there something specific you'd like to test? Or do you have any questions I can help answer?"}
+{"date":"2023/21/23 19:59:55","context":"message","ip":"::1","data":"I have a red dog named spot"}
+{"date":"2023/21/23 19:59:57","context":"completion","ip":"::1","role":"assistant","message":"That sounds like a cute name for a dog! What breed is Spot?"}
+{"date":"2023/21/23 20:0:4","context":"message","ip":"::1","data":"a dalsation"}
+{"date":"2023/21/23 20:0:7","context":"completion","ip":"::1","role":"assistant","message":"Dalmatians are known for their beautiful coat and their unique appearance. How long have you had Spot? What do you love most about having a Dalmatian as a pet?"}
+{"date":"2023/21/23 20:0:21","context":"message","ip":"::1","data":"one day. what color is spot?"}
+{"date":"2023/21/23 20:0:25","context":"completion","ip":"::1","role":"assistant","message":"You mentioned earlier that Spot is a red Dalmatian. In Dalmatians, a \"red\" coloration refers to brown spots on a white coat. So Spot likely has a white coat with brown or reddish spots."}
+{"date":"2023/21/23 20:0:46","context":"message","ip":"::1","data":"thanks"}
+{"date":"2023/21/23 20:2:4","context":"completion","ip":"::1","role":"assistant","message":"You're welcome! Do you have any other questions or anything else you'd like to chat about?"}
+{"date":"2023/21/23 20:48:38","context":"Chatbot backend starting..."}
+{"date":"2023/21/23 20:48:38","context":"promptPrefix: Act as a friendly Friend named Peter. You live in Cape Town, South Africa. Your hobbies are running, writing.\n"}
+{"date":"2023/21/23 20:48:38","context":"Server running at :: http://localhost:3001/"}
+{"date":"2023/21/23 20:48:43","context":"getconfig"}
+{"date":"2023/21/23 20:48:43","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 20:50:37","context":"getconfig"}
+{"date":"2023/21/23 20:50:37","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 20:51:44","context":"getconfig"}
+{"date":"2023/21/23 20:51:44","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 20:51:53","context":"getconfig"}
+{"date":"2023/21/23 20:51:53","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}
+{"date":"2023/21/23 20:52:16","context":"getconfig"}
+{"date":"2023/21/23 20:52:16","context":"login,","user":"user","password":"password","userid":"123","ip":"::1"}

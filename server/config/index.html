@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chatbot Admin</title>
+</head>
+
+<body>
+    <h1>Chatbot Config</h1>
+    <div class="container">
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Enabled</div>
+            <div class="flexoption">
+                <input type="checkbox" id="myCheck" onclick="onEnable()">
+            </div>
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Name</div>
+            <input class="flexoption" id="chatbotname" type="text" placeholder="Chatbot Name" title="chatbotname"
+                onchange="onChatbotNameChange()">
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Location</div>
+            <input class="flexoption" id="chatbotlocation" type="text" placeholder="Chatbot Location"
+                title="chatbotlocation" onchange="onChatbotLocationChange()">
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Hobbies</div>
+            <input class="flexoption" id="chatbothobbies" type="text" placeholder="Chatbot Hobbies"
+                title="chatbothobbies" onchange="onChatbotHobbiesChange()">
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">3D Model </div>
+            <select class="flexoption" id="select3dmodel" title="3dmodel" onchange="on3DModelChange()">
+                <option value="aj">aj</option>
+                <option value="carl">carl</option>
+                <option value="kate">kate</option>
+                <option value="louise">louise</option>
+            </select>
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Voice </div>
+            <select class="flexoption" id="selectvoice" title="voice" onchange="onVoiceChange()">
+                <option value="none">none</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text">Mandate</div>
+            <textarea class="flexoption textarea" id="chatbotcontext" type="text" placeholder="Act as a helpful assistant"
+                title="chatbotcontext" rows="5" onchange="onContextChange()"></textarea>
+        </div>
+
+        <div class="flexgroup">
+            <div class="flexlabel" id="text"></div>
+            <button class="flexoption" id="savebutton" label="SAVE" placeholder="Save Settings" title="save" onchange="onSaveSettings()">SAVE</button>    
+            <div class="flexpad"></div>
+        </div>    
+    </div>
+    <script src="config.js"></script>
+</body>
+
+</html>

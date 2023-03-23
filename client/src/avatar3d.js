@@ -1,3 +1,6 @@
+/**
+ * 3d Avatar
+ */
 export class Avatar3D {
     heads = [];
     actions = [];
@@ -50,32 +53,37 @@ export class Avatar3D {
 
     getMouths(mouths) {
         var t = mouths.find(mouth => mouth.id == "m");
-        this.heads["m"] = mouths.find(mouth => mouth.id == "m");
-        this.heads["a"] = mouths.find(mouth => mouth.id == "a");
-        this.heads["e"] = mouths.find(mouth => mouth.id == "e");
-        this.heads["g"] = mouths.find(mouth => mouth.id == "g");
-        this.heads["o"] = mouths.find(mouth => mouth.id == "o");
-        this.heads["r"] = mouths.find(mouth => mouth.id == "a");
-        this.heads["l"] = mouths.find(mouth => mouth.id == "l");
-        this.heads["s"] = mouths.find(mouth => mouth.id == "s");
-        this.heads["eyes"] = mouths.find(mouth => mouth.id == "eyes");
-        this.heads["blink"] = mouths.find(mouth => mouth.id == "blink");
+        this.heads["m"] = mouths.find(mouth => mouth.id == "m" || mouth.id.startsWith("m."));
+        this.heads["a"] = mouths.find(mouth => mouth.id == "a" || mouth.id.startsWith("a."));
+        this.heads["e"] = mouths.find(mouth => mouth.id == "e" || mouth.id.startsWith("e."));
+        this.heads["g"] = mouths.find(mouth => mouth.id == "g" || mouth.id.startsWith("g."));
+        this.heads["o"] = mouths.find(mouth => mouth.id == "o" || mouth.id.startsWith("o."));
+        this.heads["r"] = mouths.find(mouth => mouth.id == "a" || mouth.id.startsWith("a."));
+        this.heads["l"] = mouths.find(mouth => mouth.id == "l" || mouth.id.startsWith("l."));
+        this.heads["s"] = mouths.find(mouth => mouth.id == "s" || mouth.id.startsWith("s."));
+        this.heads["eyes"] = mouths.find(mouth => mouth.id == "eyes" || mouth.id.startsWith("eyes."));
+        this.heads["blink"] = mouths.find(mouth => mouth.id == "blink" || mouth.id.startsWith("blink."));
 
         this.setHead("m");
     }
 
     getActions(scene) {
         this.actions = [];
-        this.actions["idle"] = this.scene.getAnimationGroupByName("idle");
-        this.actions["talk"] = this.scene.getAnimationGroupByName("talk");
+        this.actions["idle"] = this.findAction("idle");        
+        this.actions["talk"] = this.findAction("talk");
+    }
 
-
-
-        //this.animGroup = new BABYLON.AnimationGroup("myAnimations", scene);
-
-        //this.animGroup.addTargetedAnimation(this.actions["idle"]);
-        //this.animGroup.addTargetedAnimation( this.actions["talk"]);
-        //animGroup.play(true);
+    findAction(basename) {
+        var action = this.scene.getAnimationGroupByName(basename);
+        if (action !== null) { return action;}
+        for (var i=0; i< 10; i++) {
+            var name = basename + "." + i.toString().padStart(3, '0');
+            action = this.scene.getAnimationGroupByName(name);
+            if (action != null) {
+                return action;
+            }
+        }
+        console.error("Could not find action " + basename);
     }
 
     getBlends(skeletons) {

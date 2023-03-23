@@ -3,13 +3,23 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 const path = require('path');
 
-module.exports = {
+const isProd = false;
 
+module.exports = {        
+    mode: isProd ? 'production' : 'development',
+    devtool: "source-map",
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'havatar.js',
+        library: 'avatar',
+        clean: true
+    },
     plugins: [
         new CopyPlugin({
             patterns: [
                 { from: "css/*" },
-                { from: "avatars/aj/*" },
+                { from: "art/*" },
+                { from: "avatars/*/*" },
             ],
         }),
         new HtmlWebpackPlugin({
@@ -22,19 +32,10 @@ module.exports = {
             inject: 'body'
         }),
 
-    ],
-    //devtool: "inline-source-map",
-    entry: './src/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'index.js',
-        library: 'avatar',
-        clean: true
-    },
+    ],   
+    entry: './src/index.js'
+   
     // clear the webpack project folder before building
 
-    
-    devServer: {
-        open: true
-    }
+
 };

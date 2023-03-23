@@ -11,7 +11,9 @@ import { Avatar3D } from './avatar3d';
  * Babylon.js Scene
  */
 export class Scene {
-    constructor() {
+    _config;
+    constructor(config) {
+        this._config = config;
         this.objects = [];
         this.lights = [];
         this.cameras = [];
@@ -28,14 +30,18 @@ export class Scene {
 
         // Create a camera and set its position
         this.camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, Math.PI / 2, 2, new BABYLON.Vector3(0, 1.3, 0), this.scene);
+        //this.camera = BABYLON.TargetCamera("Camera", new BABYLON.Vector3(0, 1.6, 2), this.scene);
         this.camera.setPosition(new BABYLON.Vector3(0, 1.6, 2));
+        this.camera.angularSensibilityX = 100000;
+        this.camera.angularSensibilityY = 100000;
+        this.camera.inputs.attached.pointers.buttons = [0];
 
         // Attach the camera to the canvas
-        this.camera.attachControl(this.canvas, false);
+        this.camera.attachControl(this.canvas, false); 
 
         // Create a light and set its position
-        var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 5, 0), this.scene);
-        light.intensity = 0.7;
+        var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), this.scene);
+        light.intensity = 0.9;
 
         // Create a sphere and set its position
         // var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 1 }, this.scene);
@@ -56,7 +62,8 @@ export class Scene {
     createAvatar() {
         return new Promise((resolve, reject) => {
             this._avatar = new Avatar3D(this.scene);
-            this._avatar.load("avatars", "aj").then((hero) => {
+            const avatar = this._config.avatar;
+            this._avatar.load("avatars", avatar).then((hero) => {
                 //this.camera.target = hero;
                 this.camera.setPosition(new BABYLON.Vector3(0, 1.6, 1.5));
                 resolve(this._avatar);

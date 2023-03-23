@@ -1,6 +1,7 @@
 export class AI {
-    host = "http://localhost:3001";
-    constructor() {
+    //host = "http://localhost:3001";
+    host="";
+    constructor(config) {
         this.name = "AI";
     }
 
